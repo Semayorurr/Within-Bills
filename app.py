@@ -9,3 +9,4 @@ uploaded_file = st.file_uploader("Dosya yükle", type=["jpg", "png", "pdf"])
 if uploaded_file is not None:
     st.success("Dosya başarıyla yüklendi!")
     st.write("Dosya adı:", uploaded_file.name)
+    st.write("UI skeleton hazır")
